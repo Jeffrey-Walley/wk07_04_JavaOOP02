@@ -1,0 +1,91 @@
+Java OOP 02 --- Classes, Objects, and Methods
+
+everything in Java is an Object
+
+abstraction - don't need to see the code, just want to use it
+encapsulation - don't want to give direct access to the code, wrap the code with other pieces of code
+inheritance - take the shape of code it can 'extend' from
+polymorphisim - ability to take many forms
+
+
+ArrayList
+---------
+
+  Object Oriented Programmer - image
+
+		Java is very verbose
+
+Object is a piece of data, the Class is the type of Data that the Object 'IS':
+
+		ex: Object 4 is Class Integer 
+		    Object "what" is Class String...
+
+
+different data types are considered classes (whereas the instance of the data type is an object)
+  there is a .getClass() method in Java 
+	We also Create our own CLASSES!!!
+
+
+class name should be a noun and every new word is Capital - MyNewClass <NOT camel case>
+
+class is a template for an object -- classes are composed of:
+
+	instance variables - fields - the properties / nouns of the class
+
+	constructors - used to "Construct" the instances with 'new' keyword - constructors look like methods but have no return type, the construct
+
+	method - functionality and behavior of the class -- the verbs, the actions it can take
+
+access modifiers:
+    private - only in the class they are declared
+    public - can be called from anywhere in the program
+    protected -
+    final - 
+
+if something is static is a Class variable and no longer an instance variable
+
+
+@Override -- Annotation - changes the behavior of inherited method
+
+
+ working with inheritance examples, people, animals, dog, speak method.
+
+methods should do 1 (one) thing and do it very well
+
+
+you set up Parameters (in the constructor), you pass 'Arguements' in to the Object
+
+instance variables - created in the class, but outside of a method
+  local variables - created inside the method and only accessible inside the method
+
+var - new keyword that lets you forgo variable types -- only legal in local scope
+
+'this' keyword - refers to the instance that you are creating 
+
+public and private are Access Control
+  Access Control  - Lionel goes over this many times
+
+Inheritance
+-----------
+
+the way in which one class can inherit the characteristics of another class.
+  methods and variables -- the subclass inherits its charateristics from the super class
+parent = superclass -- child = subclass
+
+int vs integer -- you have more methods at your disposal using the integer
+  int will default to '0' and integer will default to 'null'
+
+
+
+
+Polymorphisim
+-------------
+
+method overriding is a form of polymorphisim
+
+
+
+	
+
+
+
